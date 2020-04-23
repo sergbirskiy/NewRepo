@@ -1,0 +1,16 @@
+.header {
+  background-color: #f5f8fb;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
+}
+
+.header-bottom {
+  background-color: #ffffff;
+  border-top: 1px solid #e0e9f0;
+  border-bottom: 1px solid #e0e9f0;
+}

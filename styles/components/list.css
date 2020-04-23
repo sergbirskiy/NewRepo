@@ -1,0 +1,65 @@
+.list-title {
+  color: #546e7a;
+  font-size: 20px;
+  line-height: 28px;
+}
+.list {
+  padding-left: 20px;
+}
+.list > .list-item {
+  color: #282b2f;
+  margin-bottom: 16px;
+}
+
+.list-dashed {
+  list-style: none;
+  padding-left: 0;
+}
+.list-dashed > .list-item {
+  display: flex;
+  align-items: center;
+}
+.list-dashed > .list-item::before {
+  content: "";
+  width: 12px;
+  height: 2px;
+  background-color: #546e7a;
+  margin-right: 13px;
+}
+
+.list-contacts {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-contacts > .list-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 8px;
+}
+.list-contacts > .list-item > a {
+  color: #282b2f;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  text-decoration: none;
+}
+.list-contacts > .list-item > a:hover {
+  color: #009688;
+}
+
+.icon::before {
+  margin-right: 10px;
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+.icon-phone::before {
+  background-size: cover;
+  background-image: url("https://cdn0.iconfinder.com/data/icons/phone-activity-glyph/64/Phone_Activity_Icon_Set_Glyph-01-512.png");
+}
+.icon-email::before {
+  background-color: green;
+}

@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #ffffff;
+  color: #465a64;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: inline-block;
+}
+
+a {
+  color: #1976d2;
+  text-decoration: underline;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 28px;
+}
+
+a:hover {
+  color: #02478a;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  height: auto;
+}
+
+p,
+ul,
+ol,
+figure {
+  margin: 0 0 16px 0;
+}
+
+* + p,
+* + ul,
+* + ol * + figure {
+  margin-top: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 0.67em 0;
+  color: #282b2f;
+  font-weight: 500;
+}
+
+* + h1,
+* + h2,
+* + h3,
+* + h4,
+* + h5,
+* + h6 {
+  margin-top: 0.67em;
+}
+
+h1 {
+  font-size: 44px;
+  line-height: 54px;
+}
+h2 {
+  font-size: 36px;
+  line-height: 54px;
+}
+h3 {
+  font-size: 28px;
+  line-height: 38px;
+}
+h4 {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.aside-title {
+  margin-bottom: 10px;
+}

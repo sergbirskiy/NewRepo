@@ -1,0 +1,37 @@
+.card {
+  padding: 30px 0;
+}
+
+.card-border {
+  border-bottom: 1px solid #e0e9f0;
+}
+
+.card-title {
+  margin-bottom: 16px;
+}
+.card-time {
+  color: #bdc6ca;
+  font-size: 14px;
+  font-weight: 400;
+}
+.card-description {
+  margin-bottom: 30px;
+}
+
+.card-image {
+  margin-bottom: 30px;
+}
+
+.card-image > img {
+  height: 200px;
+}
+
+.card-link {
+  color: #009688;
+  text-decoration: underline;
+  font-weight: 500;
+}
+.card-link:hover {
+  color: #007167;
+  text-decoration: none;
+}

@@ -1,0 +1,20 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -10px;
+}
+.nav .nav-item {
+  padding: 14px 10px;
+  color: #282b2f;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav .nav-item:hover {
+  color: #009688;
+}
+
+.nav .is-active {
+  color: #009688;
+}

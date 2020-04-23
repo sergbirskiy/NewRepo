@@ -1,0 +1,22 @@
+.section:not(:first-child) {
+  padding: 50px 0;
+  position: relative;
+}
+
+.section-title,
+.section-description,
+.section-image {
+  margin-bottom: 36px;
+}
+
+.section-image > img {
+  height: 370px;
+}
+
+.section-watches .section-image {
+  margin-bottom: 0;
+}
+
+.section-watches .section-image > img {
+  height: 300px;
+}
